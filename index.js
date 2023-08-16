@@ -1,4 +1,5 @@
-const button = document.getElementsByName("cart");
+const button = document.getElementById("cart");
+
 function onClick() {
   alert("Successfully added to cart");
 }
